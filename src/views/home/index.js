@@ -31,10 +31,8 @@ export default {
     name: 'home',
     data() {
         return {
-            eventList: {},
-            twoNav: [],
             leftNavList: [],
-            tableData: Array(20).fill(item)
+            user: item
         }
     },
     created() {
