@@ -6,6 +6,9 @@
 					<img src="../../assets/images/logo.png"/>
 				</div>
 				<el-menu-item index="1" style="color: #4e4f51"><i class="el-icon-menu"></i>首页</el-menu-item>
+<!--				<el-submenu index="index+2" v-for="(data,index) in leftNavList" :key="index">-->
+<!--					<template slot="title"><i :class="data.icon"></i>{{ data.title }}{{ index+2 }}</template>-->
+<!--				</el-submenu>-->
 				<el-submenu index="2">
 					<template slot="title"><i class="el-icon-notebook-2"></i>质量表格</template>
 				</el-submenu>
@@ -165,12 +168,10 @@ html, body, #app, .el-container {
 .el-row {
 	padding-left: 25%;
 	margin-bottom: 0px;
-
-&
-:last-child {
-	margin-bottom: 0;
-}
-
+	&
+	:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .grid-content {

@@ -35,6 +35,12 @@ export default {
             user: item
         }
     },
+    methods: {
+        goModel(path) {
+            this.$router.push({path})
+
+        }
+    },
     created() {
         this.leftNavList = leftNavAll
     }
