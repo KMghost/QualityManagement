@@ -10,16 +10,19 @@
 <!--					<template slot="title"><i :class="data.icon"></i>{{ data.title }}{{ index+2 }}</template>-->
 <!--				</el-submenu>-->
 				<el-submenu index="2">
-					<template slot="title"><i class="el-icon-notebook-2"></i>质量表格</template>
+					<template slot="title"><i class="el-icon-notebook-2"></i>原料检验</template>
 				</el-submenu>
 				<el-submenu index="3">
-					<template slot="title"><i class="el-icon-collection"></i>质量标准</template>
+					<template slot="title"><i class="el-icon-collection"></i>半成品、成品的质量数据</template>
 				</el-submenu>
 				<el-submenu index="4">
-					<template slot="title"><i class="el-icon-document-checked"></i>质量数据</template>
+					<template slot="title"><i class="el-icon-document-checked"></i>合格证</template>
 				</el-submenu>
 				<el-submenu index="5">
-					<template slot="title"><i class="el-icon-document"></i>质检报告</template>
+					<template slot="title"><i class="el-icon-document"></i>工艺关联</template>
+				</el-submenu>
+				<el-submenu index="6">
+					<template slot="title"><i class="el-icon-document"></i>质量统计</template>
 				</el-submenu>
 			</el-menu>
 		</el-aside>
